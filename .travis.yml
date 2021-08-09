@@ -1,4 +1,4 @@
-language:generic 
+language: generic 
 sudo: required
 services:
   - docker
@@ -7,4 +7,3 @@ before_install:
 
 script:
   - docker run -e CI=true lelouchdocker/docker-react npm run test
-  
